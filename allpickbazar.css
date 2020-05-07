@@ -1,0 +1,738 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.samenavbar {
+    left: 0;
+    right: 0;
+    height: 80px;
+    padding: 25px 40px;
+    background-color: transparent;
+    position: fixed;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    background-color: white;
+}
+
+.samenavbar .leftside .dropdown {
+    margin-left: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(241, 241, 241);
+    border-image: initial;
+    border-radius: 6px;
+    outline: 0px;
+}
+
+.leftside {
+    align-items: center;
+}
+
+.leftside .dropdown .btn {
+    background-color: white;
+    color: #009e7f;
+    width: 150px;
+    height: 38px;
+    border: solid white;
+}
+
+.leftside .dropdown .btn:active {
+    background-color: white;
+    box-shadow: none!important;
+    outline: 0;
+    border: none;
+}
+
+.leftside .dropdown .btn:focus {
+    box-shadow: none;
+    border: none;
+}
+
+
+/* .dropdown-menu .dropdown-item a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center
+} */
+
+.leftside .dropdown-menu {
+    direction: column;
+    /* justify-content: center; */
+    z-index: 100;
+}
+
+.leftside .dropdown-menu a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.leftside .dropdown-menu a:hover {
+    color: #009e7f;
+}
+
+.current-page1 {
+    color: #009e7f;
+}
+
+.rightside {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.rightside span {
+    margin-right: 15px;
+}
+
+.rightside a:hover {
+    color: #009e7f
+}
+
+.rightside button {
+    width: 66px;
+    height: 38px;
+    color: white;
+    background-color: #009e7f;
+    border-bottom: 5px;
+    border-color: gray;
+}
+
+.rightside button:hover {
+    color: white;
+}
+
+.rightside .dropdown .btn:active {
+    background-color: white;
+    box-shadow: none!important;
+    outline: 0;
+    border: none;
+}
+
+.rightside a {
+    text-decoration: none;
+    color: black;
+}
+
+.backimg span {
+    padding-top: 10px;
+}
+
+.banner {
+    align-items: center;
+    margin-bottom: inherit;
+    margin-top: 40px;
+}
+
+.banner .col {
+    justify-content: center;
+    align-items: center;
+}
+
+.banner input {
+    align-items: center;
+    border: 0;
+    border-radius: 0;
+    background-color: white;
+}
+
+.banner form {
+    margin-left: 500px;
+}
+
+.banner .form-control {
+    width: 480px;
+    height: 48px;
+    background-color: white;
+}
+
+.banner .row {
+    justify-content: center;
+    /* margin-top: 50px; */
+}
+
+.banner .row span {
+    font-family: Lato, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 158, 127);
+    line-height: 38px;
+    font-weight: 700;
+    background-color: rgb(247, 247, 247);
+    margin-left: 5px;
+    white-space: nowrap;
+    padding: 0px 15px;
+    border-radius: 6px;
+    border-color: white;
+}
+
+.banner .scndtext {
+    margin-top: 20px;
+}
+
+.banner .buttonn {
+    width: 150px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #009e7f;
+    color: white;
+    border: 0;
+}
+
+.backimg {
+    background-image: url(grocery-f1565ac25de02b9295dccc2da13004ab.png);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    background-size: cover;
+    overflow: hidden;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    z-index: -2;
+}
+
+.carousell {
+    width: 1286px;
+    height: 290px;
+}
+
+.carouselll {
+    width: 1186px;
+    height: 196px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.likeaslider img {
+    width: 365px;
+    height: 196px;
+    padding: 0 15px;
+}
+
+.prdctleft {
+    width: 260px;
+    height: 680px;
+    background-color: turquoise;
+}
+
+.prdctright {
+    width: 1000px;
+    height: 680px;
+}
+
+.productstime {
+    background-color: #f7f7f7;
+    padding: 35px 0 45px;
+    width: 100%;
+    height: 920px;
+    margin: 0;
+}
+
+.prdctleft {
+    background-color: white;
+}
+
+.prdctleft .leftprdcts {
+    width: 280px;
+    height: 587px;
+    padding: 0 0 0 50px;
+}
+
+.prdctleft .leftprdcts .kinds {
+    width: 230px;
+    height: 47px;
+    display: flex;
+    padding: 13px 0 0;
+    margin: 0 0 15px;
+    align-items: center;
+    display: flex;
+    border: 5px;
+    border-color: #f7f7f7;
+}
+
+.kinds svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 15px;
+}
+
+.kinds:hover {
+    color: #009e7f
+}
+
+.forsale .row .col {
+    width: 244px;
+    height: 400px;
+}
+
+.cartdown {
+    margin-top: 93px;
+    display: flex;
+    justify-content: space-between;
+    color: #009e7f;
+    border-radius: 25%;
+}
+
+.downright {
+    height: 36px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-size: 13px;
+    font-weight: 700;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(247, 247, 247);
+    border-image: initial;
+    border-radius: 18px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.downright:hover {
+    background-color: #009e7f;
+    color: white;
+}
+
+.modalbir .modal {
+    text-align: center;
+}
+
+.modalbir .modal-body {
+    overflow-y: scroll;
+}
+
+.modalbir .modal h3 {
+    margin-left: 135px;
+    color: #009e7f;
+    font-family: sans-serif;
+}
+
+.modalbir .modal input {
+    width: 80%;
+    height: 48px;
+    background-color: rgb(247, 247, 247);
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(13, 17, 54);
+    line-height: 19px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(241, 241, 241);
+    border-image: initial;
+    padding: 0px 18px;
+    transition: border-color 0.25s ease 0s;
+    margin: auto;
+}
+
+.modalbir .modal .sociable {
+    margin-left: 70px;
+    margin-top: 10px;
+    cursor: pointer;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: rgb(0, 158, 127);
+    width: 320px;
+    height: 48px;
+    color: rgb(255, 255, 255);
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    text-decoration: none;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    transition: all 0.3s ease 0s;
+}
+
+.facebook {
+    margin-left: 70px;
+    margin-top: 10px;
+    cursor: pointer;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: #4267b2;
+    width: 320px;
+    height: 48px;
+    color: rgb(255, 255, 255);
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    text-decoration: none;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    transition: all 0.3s ease 0s;
+}
+
+.google {
+    margin-left: 70px;
+    margin-top: 10px;
+    cursor: pointer;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: #4285f4;
+    width: 320px;
+    height: 48px;
+    color: rgb(255, 255, 255);
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    text-decoration: none;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    transition: all 0.3s ease 0s;
+}
+
+.modal-footer button {
+    background-color: white;
+    text-decoration: underline;
+    color: rgb(0, 158, 127);
+    margin-right: 140px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial
+}
+
+.backet {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    background-color: #009e7f;
+    z-index: 2;
+    border-radius: 6px;
+    top: 30%;
+}
+
+.bcktdown {
+    margin-top: 35px;
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    color: #009e7f;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+.bcktup {
+    color: white;
+    margin-top: 10px;
+}
+
+.bcktup svg {
+    margin-right: 5px;
+}
+
+.inbacket {
+    right: -100%;
+    width: 420px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    right: 0;
+    z-index: 1000;
+    top: 0;
+    transition: 1s;
+    display: none;
+    overflow-y: scroll;
+}
+
+.show {
+    right: 0;
+    display: block;
+}
+
+.inbup {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    padding: 15px 25px;
+}
+
+.closebacket {
+    width: 10px;
+    height: 10px;
+    color: #bfbfbf;
+    cursor: pointer;
+}
+
+.closebacket:hover {
+    color: red;
+}
+
+.inbupleft {
+    color: #009e7f;
+}
+
+.middle {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    min-height: 0px;
+    max-height: 100vh;
+    color: #77798c;
+}
+
+.inbdown {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 450px;
+}
+
+.inbdown .downup button {
+    margin: auto;
+    color: #009e7f;
+    background-color: white;
+    border: none;
+}
+
+.downdown button {
+    height: 48px;
+    width: calc(100% - 30px);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-color: rgb(0, 158, 127);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    padding: 0px;
+    border-radius: 48px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    outline: 0px;
+}
+
+.downdown button span {
+    width: auto;
+    height: 44px;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(0, 158, 127);
+    margin-right: 2px;
+    padding: 0px 30px;
+    overflow: hidden;
+    border-radius: 28px;
+}
+
+.downdown button a {
+    color: white;
+    width: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-left: 30px
+}
+
+
+/* .show {
+    display: block;
+    flex-direction: column;
+} */
+
+.modaliki .modal-dialog {
+    max-width: 900px;
+    display: flex;
+}
+
+.modaliki .modal-body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.modaliki .modalleft {
+    width: 442.5px;
+    height: 486px;
+    padding: 30px 60px;
+}
+
+.modaliki .modalright {
+    width: 442.5px;
+    height: 486px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-left: 1px solid #f3f3f3;
+    text-align: left;
+}
+
+.modalright p {
+    font-family: "Lato" sans-serif;
+    font-size: 15px;
+    color: rgb(119, 121, 140);
+}
+
+.modaliki .modalright .pcs {
+    font-family: "Lato" sans-serif;
+    color: rgb(119, 121, 140);
+    font-size: 13px;
+}
+
+.modalright .downright {
+    width: 85px;
+    margin-right: auto;
+    background-color: white;
+    color: #009e7f;
+}
+
+.modaliki .modalright .downright:hover {
+    background-color: #009e7f;
+    color: white;
+}
+
+.modaliki .modalright .price {
+    color: #009e7f;
+    margin-right: auto;
+}
+
+.modaliki .buttons .buttonss {
+    width: 140px;
+    font-family: Lato, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(13, 17, 54);
+    margin-right: 10px;
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+    height: 30px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0px 15px;
+    border-radius: 6px;
+}
+
+.modaliki .buttons .buttonsss {
+    width: 100px;
+    font-family: Lato, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(13, 17, 54);
+    margin-right: 10px;
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+    height: 30px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0px 15px;
+    border-radius: 6px;
+}
+
+.modaliki .modalleft .mainphoto {
+    width: 323px;
+    height: 323px;
+}
+
+.mainphoto img {
+    width: 300px;
+    height: 300px;
+}
+
+.mainphoto .downphoto {
+    width: 323px;
+    height: 65px;
+    padding-right: 10px;
+    border: 1px solid #f1f1f1;
+}
+
+.mainphoto .downphoto:active {
+    border-color: blue;
+}
+
+.downphoto img {
+    width: 61.72px;
+    height: 64.72px;
+}
+
+.jstitle {
+    color: black;
+}
+
+.jspcs {
+    color: rgb(119, 121, 140);
+}
+
+.jsprice {
+    color: #009e7f;
+}
+
+.fortotal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+small {
+    color: red;
+}
